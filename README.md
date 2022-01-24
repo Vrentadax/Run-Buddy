@@ -12,3 +12,5 @@ https://vrentadax.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Dax
+
+# Run Buddy Inc.
