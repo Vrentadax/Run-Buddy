@@ -16,14 +16,14 @@
 }
 
 body {
-    color: var (--tertiary-color);
+    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
-    background-color: var (--tertiary-color);
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -189,7 +189,7 @@ section {
 }
 
 .hero-form button:hover {
-    background-color: var (--tertiary-color);
+    background-color: var(--tertiary-color);
 }
 
 .checkbox-wrapper input, .radio-wrapper input {
@@ -227,7 +227,7 @@ section {
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle, var (--tertiary-color), var(--secondary-color));
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
@@ -266,7 +266,7 @@ section {
 }
   
 .secondary-border {
-    border-color: var (--tertiary-color);
+    border-color: var(--tertiary-color);
 }
 
 .text-left {
@@ -280,7 +280,7 @@ section {
 /* What we do section */
 .intro p {
     line-height: 1.7;
-    color: var (--tertiary-color);
+    color: var(--tertiary-color);
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -303,7 +303,7 @@ section {
 }
 
 .step:not(:last-child) {
-    border-bottom: 1px solid var (--tertiary-color);
+    border-bottom: 1px solid var(--tertiary-color);
 }
 
 .step h3 {
@@ -339,7 +339,7 @@ section {
 }
 
 .step-text p {
-    color: var (--tertiary-color);
+    color: var(--tertiary-color);
     font-size: 18px;
 }
 
@@ -453,7 +453,7 @@ section {
 
 .contact-form button:hover {
     color: var(--primary-color);
-    background: var (--tertiary-color);
+    background: var(--tertiary-color);
 }
 
 .contact-info a {
